@@ -1,0 +1,180 @@
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.title {
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+}
+
+.pagination-indicator {
+    margin: 0 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(175, 175, 175);
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+    height: 180px; 
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.image-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.image-button.left {
+    left: 5px;
+}
+
+.image-button.right {
+    right: 5px;
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.project-name {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 60%;
+}
+
+.project-price {
+    color: crimson;
+}
+
+.project-address{
+    display: flex;
+    align-items: center;
+}
+
+.address {
+    margin: 5px 0;
+}
+
+.project-details {
+    display: flex;
+    gap: 15px;
+    color: gray;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+}
+
+.detail-text{
+    font-size: 14px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.icon-heart {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.pagination-button {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pagination-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.image-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 0 10px;
+}
+
+.new-building-button {
+    background-color: rgba(0, 128, 128, 0.7);
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 15px 0 0 5px;
+    border-radius: 12px;
+    max-width: 80px;
+    text-transform: uppercase;
+    flex: 1;
+    text-align: left;
+}
+
+.add-to-favorites-button {
+    background-color: white;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    z-index: 2;
+}
