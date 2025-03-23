@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Apartments/static/css/main.9df459cb.css",
+    "main.js": "/Apartments/static/js/main.e912e29f.js",
+    "static/media/heart-filled.png": "/Apartments/static/media/heart-filled.2ae5d13d01e14f557ce9.png",
+    "static/media/placeholder.png": "/Apartments/static/media/placeholder.ce57d2cd8d536b4641fa.png",
+    "static/media/selection.png": "/Apartments/static/media/selection.2675a4ceb37e8a9b5971.png",
+    "static/media/bathroom.png": "/Apartments/static/media/bathroom.73a1424f4e56407b3b90.png",
+    "index.html": "/Apartments/index.html",
+    "main.9df459cb.css.map": "/Apartments/static/css/main.9df459cb.css.map",
+    "main.e912e29f.js.map": "/Apartments/static/js/main.e912e29f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9df459cb.css",
+    "static/js/main.e912e29f.js"
+  ]
+}
